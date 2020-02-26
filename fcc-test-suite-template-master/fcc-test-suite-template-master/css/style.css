@@ -1,0 +1,22 @@
+body{
+background: rgba(132, 157, 163, 0.384);
+
+}
+
+.title{
+    text-align: center;
+}
+
+.image{
+  
+background: seashell;
+}
+
+
+#title2{
+    text-align: center;
+}
+
+#bold{
+    font-weight: bolder;
+}
