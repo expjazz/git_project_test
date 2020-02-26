@@ -1,9 +1,12 @@
-body{
-background: rgba(132, 157, 163, 0.384);
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
+body{
+background: rgba(187, 205, 209, 0.267);
+font-family: Lato;
+color: rgb(22, 21, 21);
 }
 
-.title{
+#title{
     text-align: center;
 }
 
@@ -11,18 +14,46 @@ background: rgba(132, 157, 163, 0.384);
     background-color: white;
     display: block;
     height: auto;
-    margin: 5px 5px 5px 5px;
-    padding: auto;
+    /* margin: 5px 5px 5px 5px; */
+    padding-left: 130px;
     border-style: solid;
-    border-width: 10px;
+    border-width: 30px;
     border-color: white;
+    /* margin-left: 10rem;
+    margin-right: 10rem; */
+    
 }
 
+#textimage{
+    text-align: center;
+    
+}
+
+#image{
+    border-right: -30px;
+}
 
 #title2{
-    text-align: center;
+    margin-left: 35rem;
+}
+.title2{
+    text-align: left;
+    margin-left: 20rem;
+    margin-right: 20rem;
 }
 
 #bold{
+    font-weight: bolder;
+}
+
+#italic{
+    font-style: italic;
+}
+.wikipedia{
+    text-align: left;
+    margin-left: 35rem;
+    margin-right: 30rem;
+    /* text-decoration: black;
+    color: black; */
     font-weight: bolder;
 }
